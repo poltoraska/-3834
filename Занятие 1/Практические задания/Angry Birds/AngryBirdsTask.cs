@@ -1,23 +1,16 @@
-using System;
+namespace Billiards;
 
-namespace AngryBirds
+public static class BilliardsTask
 {
-    public static class AngryBirdsTask
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="directionRadians">Угол направления движения шара</param>
+    /// <param name="wallInclinationRadians">Угол</param>
+    /// <returns></returns>
+    public static double BounceWall(double directionRadians, double wallInclinationRadians)
     {
-        public static double FindSightAngle(double v, double distance)
-        {
-            double g = 9.8;
-            return 0.5 * Math.Asin(distance * g / (v * v));
-        }
-
-        static void Main(string[] args)
-        {
-
-            double distance = Convert.ToDouble(Console.ReadLine());
-
-            double v = Convert.ToDouble(Console.ReadLine());
-        }
-
-
+        //TODO
+        return 0.0;
     }
 }
